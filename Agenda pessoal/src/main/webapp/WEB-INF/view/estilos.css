@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+body{
+	font-family: "Bookman";
+}
+
+header {
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFC0CB;
+    top: 0;
+    font-weight: bold;
+    font-family: "Bookman";
+    
+}
+
+h1{
+	text-align: center;
+	font-family: "Bookman";
+}
+  
+.menu li {
+    float: right;
+    
+}
+
+.menu li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color:black;
+    text-decoration: none;
+   
+}
+
+fieldset{
+	font-size: 24px;
+	margin: 0 auto;
+	width: 40%;
+	text-align: center;
+	margin-bottom: 50px;
+	background-color: #FFFFE0;
+}
+
+span{
+	display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+.span_left{
+	width: 150px;
+}
+
+.botao, fieldset{
+	padding: 10px 24px;
+    border: 2px solid #FF69B4;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+legend, .botao{
+	font-weight: bold;
+}
+
+.botao{
+	background-color: #FFC0CB;
+	font-family: "Bookman";
+}
+
+.tabela, fieldset{
+	margin-top: 5%;
+	font-family: "Bookman";
+	
+	}
+	
+	
+	
+	
+ 
+
+table{
+	border-collapse: collapse;
+	border-radius: 10px;
+	font-family: "Bookman";
+	}
+
+.botao_tabela {
+	padding: 5px 12px;
+    border: 2px solid #FF69B4;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: #FFC0CB;
+    font-family: "Bookman";
+}
+
+.botao_tabela:hover, .botao:hover {
+	background-color: #FFFFE0;
+	cursor: pointer;
+}
+
+table, tr, td, th {
+	border: 2px solid #FF69B4; ;
+	margin: 0 auto;
+	width: 60%;
+	height: 60%;
+	text-align: center;
+	background-color: #FFFFE0;
+}
+
+td, th {
+	padding: 30px;
+	white-space: nowrap;
+}
